@@ -6,18 +6,19 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+// simple fraction
+#import<Foundation/Foundation.h>
 
-int main (int argc, const char * argv[])
+int main (int argc, char *argv[])
 {
-
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-
-    // insert code here...
-    NSLog(@"Hello, World!");
-    NSLog(@"Testing");
-
+    NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+    int numerator = 3;
+    int denomenator = 4;
+    NSLog(@"The fraction is %i/%i" ,numerator,denomenator);
     [pool drain];
     return 0;
+    
+    
 }
+
 
